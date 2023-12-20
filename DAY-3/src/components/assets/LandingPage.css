@@ -1,0 +1,161 @@
+/* Add these styles to LandingPage.css */
+
+.landing-body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F5FA;
+  }
+  
+  .landing-container {
+    flex: 1;
+    margin-top: 200px;
+    margin-left: 150px;
+    max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+  }
+  
+  .landing-header {
+    text-align: center;
+    padding: 16px 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    width: 100%; /* Make the header full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .landing-header h1 {
+    margin: 0;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .landing-main-content {
+    text-align: center;
+    padding: 40px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.land1, .land2, .land3, .land4 {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Make the container full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+    text-align: left; /* Align text to the left within the container */
+    margin-bottom: 30px;
+}
+
+.land1 h2, .land2 h2, .land3 h2, .land4 h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.land1 p, .land2 p, .land3 li, .land4 p {
+    color: wheat;
+    font-size: 16px;
+    line-height: 1.5;
+}
+  
+  .landing-navbar {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .landing-navbar-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .landing-navbar-item {
+    margin-left: 10px;
+  }
+  
+  .landing-navbar-item a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .landing-navbar-item a:hover,
+  .landing-navbar-item a.active {
+    background-color: #555;
+  }
+  
+  .landing-main-content {
+    text-align: center;
+    padding: 40px 20px;
+    flex: 1;
+  }
+  
+  .landing-main-content h1 {
+    color: white;
+    margin-bottom: 20px; /* Add space below the heading */
+  }
+
+  .about-us-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Make the container full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+    text-align: left; /* Align text to the left within the container */
+    margin-bottom: 30px;
+  }
+
+  .about-us-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .about-us-container p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .landing-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Push the footer to the bottom */
+    width: 100%; /* Make the footer full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+
+  /* Add styles for the social icons */
+  .social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  
+  /* Add more specific styles for each social icon if needed */
+  .social-icons a:hover {
+    color: #00f; /* Change the color on hover if desired */
+  }

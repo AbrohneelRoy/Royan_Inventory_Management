@@ -1,0 +1,51 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+
+}
+
+.dashboard-summary,
+.dashboard-charts,
+.dashboard-last-added {
+  margin-bottom: 20px;
+  margin-left: 250px;
+}
+
+/* Styling for summary section */
+.dashboard-summary {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for charts section */
+.dashboard-charts {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for Bar chart */
+.bar-chart {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Styling for last added item section */
+.dashboard-last-added {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add more styles as needed */
