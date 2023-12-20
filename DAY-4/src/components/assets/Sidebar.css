@@ -1,0 +1,73 @@
+/* Sidebar.css */
+
+.sidebar-container {
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+
+  /* Make the sidebar fixed */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+.sidebar-logo {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebar-list-item {
+  cursor: pointer;
+  padding: 14px;
+  transition: background-color 0.3s;
+}
+
+.sidebar-list-item:hover {
+  background-color: #555;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: white;
+}
+
+.active-item {
+  background-color: #555;
+}
+
+.sidebar-signout {
+  margin-top: auto;
+}
+
+/* Styling for the logout link */
+.sidebar-link.sidebar-signout {
+  padding: 14px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  border-top: 1px solid #555;
+}
+
+.sidebar-link.sidebar-signout:hover {
+  background-color: #555;
+}
+
+/* Add transition effect for smoother hover animation */
+.sidebar-link, .sidebar-link.sidebar-signout {
+  transition: color 0.3s, background-color 0.3s;
+}
